@@ -1,0 +1,62 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+</style>
+
+/* selector {
+    propiedad: valor de propiedad;
+    propiedad 2: valor 2;
+} */
+/* selector universal */
+/* se utiliza para todo el documento html */
+*{
+    border: 1px solid red;
+}
+
+.conteiner{
+    /* background-color: cornflowerblue; */
+    /* background-image: url(https://www.trbimg.com/img-5cb64884/turbine/ct-hoy-barca-champions-messi-20190416) ;
+    background-size: 10%; */
+
+    background-image: url('./img/messi.jpg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+
+
+}
+h1{
+    color: blueviolet;
+}
+.titulo {
+    color: blue;
+}
+
+.otro-nombre{
+    color: chartreuse;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Water Brush', cursive;
+    
+}
+.parrafo{
+    color: cyan;
+
+}
+.link:hover {
+     background-color: brown;
+     color: beige;
+     font-size: 5rem;
+
+}
+/* selector de etiqueta  */
+p {
+    background-color: aliceblue;
+}
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+.otro-h2 {
+ 
+    font-family: 'Water Brush', cursive;
+}
